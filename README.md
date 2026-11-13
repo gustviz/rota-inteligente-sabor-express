@@ -161,8 +161,8 @@ Requisitos: **Python 3.10+**.
 
 ```bash
 # 1. Clonar o repositório
-git clone <url-do-repositorio>
-cd <pasta-do-repositorio>
+git clone https://github.com/gustviz/rota-inteligente-sabor-express.git
+cd rota-inteligente-sabor-express
 
 # 2. Criar e ativar um ambiente virtual
 python -m venv .venv
