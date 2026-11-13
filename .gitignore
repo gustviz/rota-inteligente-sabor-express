@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# enunciado da disciplina (material da instituição, não faz parte do código)
+*.docx

@@ -1,0 +1,5 @@
+algoritmo,custo_medio,excesso_medio_pct,otimo_pct,nos_expandidos_medio,tempo_medio_ms
+BFS,16.977,7.581,52.874,16.0,0.013
+DFS,49.631,322.419,9.31,16.0,0.016
+Dijkstra,15.652,0.0,100.0,16.0,0.03
+A*,15.652,0.0,100.0,11.349,0.027

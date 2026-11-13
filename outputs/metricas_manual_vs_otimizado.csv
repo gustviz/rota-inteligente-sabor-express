@@ -1,0 +1,6 @@
+cenario,entregadores,pedidos,distancia_total_km,tempo_total_min,maior_rota_min,espera_media_cliente_min,espera_maxima_cliente_min
+manual (ordem de chegada),4,40,247.07,677.92,193.62,83.43,178.46
+só roteamento (lotes por chegada + 2-opt),4,40,134.08,370.75,106.49,42.95,88.09
+só agrupamento (K-Means + ordem de chegada),4,40,94.7,253.89,85.62,31.26,69.46
+rota inteligente,4,40,58.67,158.92,45.1,20.78,39.84
+redução manual -> inteligente (%),,,76.3,76.6,76.7,75.1,77.7

@@ -1,0 +1,9 @@
+entregador,cenario,sequencia,paradas,pedidos,tempo_min,distancia_km
+1,otimizado,Centro -> Vila Rica -> Vila Nova -> Jardim das Flores -> Alto da Serra -> Centro,4,6,32.42,11.55
+2,otimizado,Centro -> Jardim Primavera -> Vila Esperança -> Vila Operária -> São José -> Boa Esperança -> Santa Luzia -> Nova Aurora -> Jardim América -> Centro,8,13,41.7,15.48
+3,otimizado,Centro -> Vila do Porto -> Bosque -> Vila Real -> Cidade Baixa -> Cidade Alta -> Morada do Sol -> Recanto Verde -> Centro,7,11,45.1,16.91
+4,otimizado,Centro -> Santa Rita -> Vista Alegre -> Campo Belo -> Planalto -> São Pedro -> Centro,5,10,39.7,14.73
+1,manual,Centro -> Boa Esperança -> Campo Belo -> Jardim América -> Planalto -> Nova Aurora -> Morada do Sol -> Cidade Alta -> Vila Real -> Santa Rita -> Centro,9,10,151.15,54.81
+2,manual,Centro -> Vila Rica -> Santa Rita -> Santa Luzia -> Jardim América -> Cidade Baixa -> Planalto -> Vila do Porto -> Vila Nova -> Cidade Alta -> São José -> Centro,10,10,193.62,73.66
+3,manual,Centro -> São José -> Planalto -> Cidade Alta -> Recanto Verde -> São Pedro -> Bosque -> Santa Rita -> Alto da Serra -> Jardim Primavera -> Centro,9,10,145.0,52.27
+4,manual,Centro -> Vila Esperança -> Jardim das Flores -> Santa Luzia -> Vila Real -> Vista Alegre -> Nova Aurora -> Bosque -> Alto da Serra -> Vila Operária -> Centro,9,10,188.15,66.34

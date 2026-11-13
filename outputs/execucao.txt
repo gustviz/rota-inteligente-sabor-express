@@ -1,0 +1,63 @@
+
+======================================================================
+1. DADOS
+======================================================================
+Grafo: 30 bairros, 91 arestas direcionadas | Pedidos: 40 | Restaurante: Centro | Peso otimizado: tempo_min
+
+======================================================================
+2. BUSCA: Vila Nova -> Planalto
+======================================================================
+BFS       custo= 34.44 min | ruas= 7 | expandidos=28 | Vila Nova -> Jardim das Flores -> Alto da Serra -> Parque das Águas -> Jardim América -> Vila Esperança -> São Pedro -> Planalto
+DFS       custo= 51.84 min | ruas=13 | expandidos=15 | Vila Nova -> Jardim das Flores -> Alto da Serra -> Parque das Águas -> Jardim América -> Boa Esperança -> São José -> Santa Luzia -> Nova Aurora -> Vila Operária -> Vila Esperança -> Bairro Industrial -> São Pedro -> Planalto
+Dijkstra  custo= 30.59 min | ruas= 7 | expandidos=30 | Vila Nova -> Jardim das Flores -> Bela Vista -> Parque das Águas -> Jardim Primavera -> Vila Esperança -> São Pedro -> Planalto
+A*        custo= 30.59 min | ruas= 7 | expandidos=21 | Vila Nova -> Jardim das Flores -> Bela Vista -> Parque das Águas -> Jardim Primavera -> Vila Esperança -> São Pedro -> Planalto
+
+Comparação em todos os 870 pares origem-destino:
+algoritmo  custo_medio  excesso_medio_pct  otimo_pct  nos_expandidos_medio  tempo_medio_ms
+      BFS       16.977              7.581     52.874                16.000           0.013
+      DFS       49.631            322.419      9.310                16.000           0.016
+ Dijkstra       15.652              0.000    100.000                16.000           0.030
+       A*       15.652              0.000    100.000                11.349           0.027
+
+======================================================================
+3. AGRUPAMENTO DAS ENTREGAS (K-MEANS)
+======================================================================
+24 paradas distintas | k mínimo pela capacidade = 4
+  k=2: inércia=  83.11 silhueta=0.438
+  k=3: inércia=  47.75 silhueta=0.457
+  k=4: inércia=  28.57 silhueta=0.465  <- escolhido
+  k=5: inércia=  22.38 silhueta=0.431
+  k=6: inércia=  17.32 silhueta=0.377
+  k=7: inércia=  14.33 silhueta=0.353
+  k=8: inércia=  12.90 silhueta=0.290
+
+======================================================================
+4. ROTAS OTIMIZADAS (A* + VIZINHO MAIS PRÓXIMO + 2-OPT)
+======================================================================
+Entregador 1:  6 pedidos,  32.4 min, 11.55 km | Centro -> Vila Rica -> Vila Nova -> Jardim das Flores -> Alto da Serra -> Centro
+Entregador 2: 13 pedidos,  41.7 min, 15.48 km | Centro -> Jardim Primavera -> Vila Esperança -> Vila Operária -> São José -> Boa Esperança -> Santa Luzia -> Nova Aurora -> Jardim América -> Centro
+Entregador 3: 11 pedidos,  45.1 min, 16.91 km | Centro -> Vila do Porto -> Bosque -> Vila Real -> Cidade Baixa -> Cidade Alta -> Morada do Sol -> Recanto Verde -> Centro
+Entregador 4: 10 pedidos,  39.7 min, 14.73 km | Centro -> Santa Rita -> Vista Alegre -> Campo Belo -> Planalto -> São Pedro -> Centro
+
+======================================================================
+5. CENÁRIO MANUAL x ROTA INTELIGENTE
+======================================================================
+                                    cenario entregadores pedidos  distancia_total_km  tempo_total_min  maior_rota_min  espera_media_cliente_min  espera_maxima_cliente_min
+                  manual (ordem de chegada)            4      40              247.07           677.92          193.62                     83.43                     178.46
+  só roteamento (lotes por chegada + 2-opt)            4      40              134.08           370.75          106.49                     42.95                      88.09
+só agrupamento (K-Means + ordem de chegada)            4      40               94.70           253.89           85.62                     31.26                      69.46
+                           rota inteligente            4      40               58.67           158.92           45.10                     20.78                      39.84
+          redução manual -> inteligente (%)                                    76.30            76.60           76.70                     75.10                      77.70
+
+Arquivos gerados em outputs/:
+  - clusters.png
+  - comparacao_algoritmos.csv
+  - comparacao_algoritmos.png
+  - comparacao_cenarios.png
+  - escolha_k.png
+  - execucao.txt
+  - exemplo_busca.png
+  - mapa_grafo.png
+  - metricas_manual_vs_otimizado.csv
+  - rotas.csv
+  - rotas_manual_vs_otimizado.png

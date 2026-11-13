@@ -1,0 +1,50 @@
+origem,destino,distancia_km,tipo_via,velocidade_kmh,fator_transito,tempo_min,mao_unica
+Vila Nova,Jardim das Flores,1.13,rua,25.0,1.25,3.39,False
+Vila Rica,Vila Nova,1.366,rua,25.0,1.13,3.7,True
+Jardim das Flores,Bela Vista,1.729,rua,25.0,1.15,4.77,False
+Jardim das Flores,Alto da Serra,1.152,rua,25.0,1.02,2.82,False
+Jardim das Flores,Vila Rica,2.031,rua,25.0,1.23,6.0,False
+Bela Vista,Parque das Águas,1.382,avenida,40.0,1.06,2.2,False
+Bela Vista,Alto da Serra,2.238,rua,25.0,1.05,5.64,True
+Boa Esperança,São José,1.122,rua,25.0,1.12,3.02,False
+Jardim América,Boa Esperança,1.614,rua,25.0,1.05,4.07,True
+São José,Santa Luzia,1.312,rua,25.0,1.12,3.53,False
+Vila Operária,São José,1.041,rua,25.0,1.25,3.12,True
+Santa Luzia,Nova Aurora,1.626,rua,25.0,1.22,4.76,False
+Vila Rica,Alto da Serra,1.758,rua,25.0,1.11,4.68,False
+Vila Rica,Morada do Sol,1.415,rua,25.0,1.06,3.6,False
+Alto da Serra,Parque das Águas,1.115,rua,25.0,1.74,4.66,False
+Alto da Serra,Recanto Verde,1.605,rua,25.0,1.8,6.93,False
+Parque das Águas,Jardim América,2.136,rua,25.0,1.77,9.07,False
+Parque das Águas,Jardim Primavera,2.103,rua,25.0,1.59,8.02,False
+Jardim América,Vila Operária,1.483,rua,25.0,1.01,3.59,False
+Jardim América,Jardim Primavera,1.031,rua,25.0,1.51,3.74,False
+Jardim América,Vila Esperança,1.433,rua,25.0,1.57,5.4,False
+Vila Operária,Nova Aurora,1.318,rua,25.0,1.14,3.6,False
+Vila Operária,Vila Esperança,1.148,rua,25.0,1.07,2.95,False
+Morada do Sol,Recanto Verde,0.853,avenida,40.0,1.14,1.46,False
+Morada do Sol,Cidade Alta,1.317,rua,25.0,1.01,3.19,False
+Recanto Verde,Centro,2.017,avenida,40.0,1.74,5.26,False
+Cidade Baixa,Recanto Verde,1.121,rua,25.0,1.78,4.79,True
+Centro,Jardim Primavera,1.448,avenida,40.0,1.67,3.63,False
+Centro,Vila do Porto,1.723,avenida,40.0,1.45,3.75,False
+Jardim Primavera,Vila Esperança,1.381,avenida,40.0,1.5,3.11,False
+Jardim Primavera,Jardim Europa,1.848,rua,25.0,1.65,7.32,False
+Vila Esperança,Bairro Industrial,1.389,avenida,40.0,1.13,2.35,False
+Vila Esperança,Santa Rita,2.217,rua,25.0,1.05,5.59,False
+Vila Esperança,São Pedro,2.097,rua,25.0,1.1,5.54,False
+Bairro Industrial,São Pedro,1.566,rua,25.0,1.08,4.06,False
+Cidade Alta,Cidade Baixa,1.307,rua,25.0,1.11,3.48,False
+Cidade Baixa,Monte Alegre,1.956,rua,25.0,1.02,4.79,False
+Vila do Porto,Jardim Europa,1.046,rua,25.0,1.77,4.44,False
+Jardim Europa,Santa Rita,1.46,rua,25.0,1.09,3.82,False
+Jardim Europa,Campo Belo,1.352,rua,25.0,1.18,3.83,False
+Jardim Europa,Vista Alegre,2.014,rua,25.0,1.16,5.61,True
+Santa Rita,São Pedro,1.383,rua,25.0,1.17,3.88,False
+Santa Rita,Vista Alegre,0.986,rua,25.0,1.03,2.44,True
+São Pedro,Planalto,1.29,rua,25.0,1.15,3.56,False
+Vila Real,Monte Alegre,1.161,rua,25.0,1.16,3.23,False
+Monte Alegre,Bosque,1.458,rua,25.0,1.23,4.3,False
+Bosque,Campo Belo,1.555,rua,25.0,1.11,4.14,False
+Campo Belo,Vista Alegre,0.964,rua,25.0,1.19,2.75,False
+Vista Alegre,Planalto,1.369,rua,25.0,1.19,3.91,False
