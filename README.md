@@ -206,7 +206,6 @@ Exemplo: `python src/main.py --peso distancia_km --capacidade 8 --origem "Vila R
 │   ├── visualizacao.py   # mapas e gráficos
 │   └── main.py           # executa todo o fluxo
 ├── outputs/              # gráficos, tabelas CSV e log da execução
-├── docs/roteiro_pitch.md # roteiro do vídeo pitch
 ├── tests/                # testes automatizados (pytest)
 └── requirements.txt
 ```

@@ -4,3 +4,5 @@ __pycache__/
 .pytest_cache/
 # enunciado da disciplina (material da instituição, não faz parte do código)
 *.docx
+# material pessoal (roteiro do vídeo)
+docs/
