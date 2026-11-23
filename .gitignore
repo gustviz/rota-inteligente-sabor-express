@@ -6,3 +6,4 @@ __pycache__/
 *.docx
 # material pessoal (roteiro do vídeo)
 docs/
+pitch_*.md

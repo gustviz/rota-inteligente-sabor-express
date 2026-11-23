@@ -1,6 +1,11 @@
 # Rota Inteligente: Otimização de Entregas com Algoritmos de IA
 
 Projeto da disciplina **Artificial Intelligence Fundamentals** (UNIFECAF).
+
+**Aluno:** Gustavo Paraiso Vizeu · **RA:** 160207
+
+🎬 **Vídeo pitch:** https://youtu.be/QqQ4B4fhrAM
+
 Solução de roteamento para a **Sabor Express**, empresa de delivery de alimentos da região central da cidade, usando **grafos**, **algoritmos de busca (BFS, DFS, Dijkstra e A\*)** e **aprendizado não supervisionado (K-Means)**.
 
 > **Resultado principal:** no horário de pico simulado (40 pedidos, 4 entregadores), a Rota Inteligente reduziu a **distância total em 76%** (247 km → 59 km) e a **espera média do cliente de 83 para 21 minutos**, em comparação com a distribuição manual por ordem de chegada.
